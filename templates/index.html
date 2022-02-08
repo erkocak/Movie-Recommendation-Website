@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/all.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Movie App</title>
+    <script src="https://kit.fontawesome.com/ef37a2bdac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="container-logo">
+            <img src="https://img.icons8.com/ios/50/000000/home--v1.png" alt="Homepage" onClick="goHome()"/>
+        </div>            
+
+        <div class="container-search">
+        <form id="form">
+            <input type="text" placeholder="Search" id="search" class="search">
+        </form>
+        </div>
+    </header>
+    
+    <main id="main">
+    <form id="starform" action="/movierates" method="post">
+        <div class="padding-div">
+
+        <div class="movie">
+            <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg" alt="Inception">
+            <div class="movie-info">
+                <h3>Inception</h3>
+                <span class="green">8.8</span>
+            </div>
+            <div class="overview">
+                <div class="rating">
+                    
+                    <input id="79132-5" type="radio" name="79132" value="10">
+                    <label for="79132-5" class="full"></label>
+                    
+                    <input id="79132-45" type="radio" name="79132" value="9"> 
+                    <label for="79132-45" class="half"></label>
+
+                    <input id="79132-4" type="radio" name="79132" value="8">
+                    <label for="79132-4" class="full"></label>
+
+                    <input id="79132-35" type="radio" name="79132" value="7">
+                    <label for="79132-35" class="half"></label>
+
+                    <input id="79132-3" type="radio" name="79132" value="6">
+                    <label for="79132-3" class="full"></label>
+
+                    <input id="79132-25" type="radio" name="79132" value="5">
+                    <label for="79132-25" class="half"></label>
+
+                    <input id="79132-2" type="radio" name="79132" value="4">
+                    <label for="79132-2" class="full"></label>
+
+                    <input id="79132-15" type="radio" name="79132" value="3">
+                    <label for="79132-15" class="half"></label>
+
+                    <input id="79132-1" type="radio" name="79132" value="2">
+                    <label for="79132-1" class="full"></label>
+
+                    <input id="79132-05" type="radio" name="79132" value="1">
+                    <label for="79132-05" class="half"></label>
+                       
+                </div>
+                <br/>
+                <div class="mini-button-div">
+                    <button class="mini-button" id="79132" onClick="reply_click(this.id)">Save</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg" alt="The Lord of the Rings: The Return of the King">
+            <div class="movie-info">
+                <h3>The Lord of the Rings: The Return of the King</h3>
+                <span class="green">8.9</span>
+            </div>
+            <div class="overview">
+                <div class="rating">
+                    
+                    <input id="7153-5" type="radio" name="7153" value="10">
+                    <label for="7153-5" class="full"></label>
+                    
+                    <input id="7153-45" type="radio" name="7153" value="9"> 
+                    <label for="7153-45" class="half"></label>
+
+                    <input id="7153-4" type="radio" name="7153" value="8">
+                    <label for="7153-4" class="full"></label>
+
+                    <input id="7153-35" type="radio" name="7153" value="7">
+                    <label for="7153-35" class="half"></label>
+
+                    <input id="7153-3" type="radio" name="7153" value="6">
+                    <label for="7153-3" class="full"></label>
+
+                    <input id="7153-25" type="radio" name="7153" value="5">
+                    <label for="7153-25" class="half"></label>
+
+                    <input id="7153-2" type="radio" name="7153" value="4">
+                    <label for="7153-2" class="full"></label>
+
+                    <input id="7153-15" type="radio" name="7153" value="3">
+                    <label for="7153-15" class="half"></label>
+
+                    <input id="7153-1" type="radio" name="7153" value="2">
+                    <label for="7153-1" class="full"></label>
+
+                    <input id="7153-05" type="radio" name="7153" value="1">
+                    <label for="7153-05" class="half"></label>
+                       
+                </div>
+                <br/>
+                <div class="mini-button-div">
+                    <button class="mini-button" id="7153" onClick="reply_click(this.id)">Save</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg" alt="Pulp Fiction">
+            <div class="movie-info">
+                <h3>Pulp Fiction</h3>
+                <span class="green">8.9</span>
+            </div>
+            <div class="overview">
+                <div class="rating">
+                    
+                    <input id="296-5" type="radio" name="296" value="10">
+                    <label for="296-5" class="full"></label>
+                    
+                    <input id="296-45" type="radio" name="296" value="9"> 
+                    <label for="296-45" class="half"></label>
+
+                    <input id="296-4" type="radio" name="296" value="8">
+                    <label for="296-4" class="full"></label>
+
+                    <input id="296-35" type="radio" name="296" value="7">
+                    <label for="296-35" class="half"></label>
+
+                    <input id="296-3" type="radio" name="296" value="6">
+                    <label for="296-3" class="full"></label>
+
+                    <input id="296-25" type="radio" name="296" value="5">
+                    <label for="296-25" class="half"></label>
+
+                    <input id="296-2" type="radio" name="296" value="4">
+                    <label for="296-2" class="full"></label>
+
+                    <input id="296-15" type="radio" name="296" value="3">
+                    <label for="296-15" class="half"></label>
+
+                    <input id="296-1" type="radio" name="296" value="2">
+                    <label for="296-1" class="full"></label>
+
+                    <input id="296-05" type="radio" name="296" value="1">
+                    <label for="296-05" class="half"></label>
+                       
+                </div>
+                <br/>
+                <div class="mini-button-div">
+                    <button class="mini-button" id="296" onClick="reply_click(this.id)">Save</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rCQzHGuAod7S23apXYjHaxQHLlT.jpg" alt="12 Angry Men">
+            <div class="movie-info">
+                <h3>12 Angry Men</h3>
+                <span class="green">9.0</span>
+            </div>
+            <div class="overview">
+                <div class="rating">
+                    
+                    <input id="77846-5" type="radio" name="77846" value="10">
+                    <label for="77846-5" class="full"></label>
+                    
+                    <input id="77846-45" type="radio" name="77846" value="9"> 
+                    <label for="77846-45" class="half"></label>
+
+                    <input id="77846-4" type="radio" name="77846" value="8">
+                    <label for="77846-4" class="full"></label>
+
+                    <input id="77846-35" type="radio" name="77846" value="7">
+                    <label for="77846-35" class="half"></label>
+
+                    <input id="77846-3" type="radio" name="77846" value="6">
+                    <label for="77846-3" class="full"></label>
+
+                    <input id="77846-25" type="radio" name="77846" value="5">
+                    <label for="77846-25" class="half"></label>
+
+                    <input id="77846-2" type="radio" name="77846" value="4">
+                    <label for="77846-2" class="full"></label>
+
+                    <input id="77846-15" type="radio" name="77846" value="3">
+                    <label for="77846-15" class="half"></label>
+
+                    <input id="77846-1" type="radio" name="77846" value="2">
+                    <label for="77846-1" class="full"></label>
+
+                    <input id="77846-05" type="radio" name="77846" value="1">
+                    <label for="77846-05" class="half"></label>
+                       
+                </div>
+                <br/>
+                <div class="mini-button-div">
+                    <button class="mini-button" id="77846" onClick="reply_click(this.id)">Save</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <div class="submitation">
+            <button class="sbmt" type="submit">Submit</button>
+    </div>
+
+    <div class="hiddenInput">
+        <input id="ratedId" type="hidden" name="ratedName" value="0">
+    </div>
+    </div>
+    </form>
+
+    {% if string %}
+    <p>{{string}}</p>
+    {%endif%}
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
